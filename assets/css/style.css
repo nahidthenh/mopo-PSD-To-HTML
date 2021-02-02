@@ -1,0 +1,385 @@
+/*------------------------------------------------------------------
+	[Master Stylesheet]
+	
+	Project:    Project Name
+	Version:    1.0
+	Last change:    24/03/17 [fixed Float bug, vf]
+	Author Name: Author Name
+	Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+	[Table of contents]
+	
+	1. Body
+	2.
+-------------------------------------------------------------------*/
+
+/*
+	==========================================
+    Reset Css
+	==========================================
+*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+body{
+	font-family:arial;
+}
+/* Hero Area */
+.hero-area{
+	background:url('../img/hero_bg.jpg');
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+}
+.hero-content{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color:#fff;
+	text-align:center;
+}
+.hero-content h3{
+	font-size:30px;
+	font-weight:bold;
+	padding-bottom:20px
+}
+.hero-content p{
+	font-size:20px;
+	padding-bottom:20px
+}
+.btn-home{
+	background: #6FED8D;
+	border: none;
+	padding: 10px 30px;
+	color: #0f355c;
+}
+.navbar{
+	background:#000;
+	opacity:.7;
+	position:fixed;
+	top:0;
+	z-index:1;
+	width:100%;
+}
+/* About Area */
+
+.about-area{
+	padding:80px 0px
+}
+
+.section-title {}
+.section-title h3 {
+	font-size: 32px;
+	color: #0f355c;
+	padding: 10px 0px;
+}
+.section-title h3::after {
+	position: absolute;
+	content: '';
+	background: #6FED8D;
+	height: 4px;
+	width: 53px;
+	top: 0;
+	left: 15px;
+	border-radius: 10px;
+}
+
+.about-content{
+	padding:10px 0px;
+}
+.about-content h6{
+	font-size:20px;
+	color:#ffc61b;
+	padding-bottom:15px;
+	
+}
+.about-content p{
+	font-size:17px;
+	color:#54687d;
+}
+
+.about-img::after {
+	position: absolute;
+	content: '';
+	background: #6fed8d;
+	height: 90%;
+	width: 80%;
+	bottom: -2%;
+	left: -2%;
+	z-index: -1;
+	border-radius: 10px;
+}
+
+/* Porgrams area */
+.our-porgram-area{
+	padding-bottom:80px; 
+}
+.porgrams-bg{
+	background:#fafafa;
+	padding:35px;
+	border-radius:10px;
+}
+.porgrams-box {
+	text-align: center;
+	background: #efebff;
+	padding: 15px;
+	border-radius: 10px;
+	
+}
+.porgrams-box h6 a{
+	padding-top:10px;
+	text-decoration:none;
+	display:block;
+	
+	
+}
+.section-porgram-pt5 {
+	margin-top: 130px;
+}
+.bg2{background:#ffeeeb!important;}
+.bg3{background:#e8f2fc!important;}
+.bg4{background:#ffebf3!important;color:#;}
+.bg5{background:#dbf9fa!important;color:#6ad0d4;}
+.bg6 {
+	background: #e9f9e4 !important;
+	color: #83d46a;
+	height: 122px;
+}
+.bg1 h6 a{color:#997fff;}
+.bg2 h6 a{color:#ff937f;}
+.bg3 h6 a{color:#7ebdfc;}
+.bg4 h6 a{color:#ff7fb2;}
+.bg5 h6 a{color:#6ad0d4;}
+.bg6 h6 a{color:#6ad0d4;margin-top:13px;}
+.about-content p{
+	color:#54687d;
+}
+
+/* Our Facilities Are3a */
+.facilities-area{
+	padding-bottom:50px
+}
+.facilities-img img{
+	width:100%;
+}
+.facilities-img p {
+	text-align: center;
+	padding: 6px;
+	margin-bottom: 15px;
+	border-radius: 0px 0px 10px 10px;
+	font-size: 17px;
+}
+.facilities h3::after {
+	position: absolute;
+	content: '';
+	background: #6FED8D;
+	height: 4px;
+	width: 53px;
+	top: 25px;
+	left: 15px;
+	border-radius: 10px;
+}
+
+/* Admision Area  */
+.admision-area{
+	background:#0f355c;
+	
+}
+.admision-text {
+	padding: 70px 0px;
+	margin-left: 16%;
+}
+.admision-text h3{
+	color:#fff !important;
+	font-weight:bold;
+}
+.admision-text h3::after {
+	position: absolute;
+	content: '';
+	background: #6FED8D;
+	height: 4px;
+	width: 53px;
+	top: 13%;
+	left: 18%;
+	border-radius: 10px;
+}
+.admision-content{
+	margin:15px 0px;
+}
+.admision-content p{
+	color:#babfc8;
+	font-size:18px;
+	margin-bottom:30px;
+}
+
+/* Campus Area */
+.camous-area{
+	padding:80px 0px;
+}
+.campus-title h3{
+	color:#f355c;
+}
+
+.campus-title h3::after {
+	position: absolute;
+	content: '';
+	background: #6FED8D;
+	height: 4px;
+	width: 53px;
+	top: 25%;
+	left: 3%;
+	border-radius: 10px;
+}
+.campus-content {
+	padding-top: 158px;
+}
+.campus-content p{
+	color:#54687d;
+	font-size:18px;
+	margin:15px 0px;
+}
+.video-play {
+  padding-top: 20px;
+  display: block;
+}
+.text-block {
+  margin: -8% 16%;
+  color:#ffc61a;
+}
+
+/* Apply Area */
+
+.applay-area{
+	padding-bottom:60px;
+}
+.apply-content {
+  background: #6fed8d;
+  padding: 60px;
+  border-radius: 10px;
+}
+.apply-content h3 {
+  margin-bottom: 15px;
+  color: #0f355c;
+}
+.apply-content p {
+  color: #54687d;
+  margin-bottom: 15px;
+}
+.btn-apply {
+  background: #0f355c;
+  color: #fff;
+  border: none;
+  padding: 8px 22px;
+  margin-top: 20px;
+}
+
+.btn-book{
+	background:none;
+  color: #0f355c;
+  border: 1px solid #0f355c;
+  padding: 8px 22px;
+  margin-top: 18px;
+}
+.apply-book{
+	background:#ffcf40;
+}
+/* Event Area */
+
+
+.event {
+	background: #ebf2fa;
+	padding-top: 237px;
+	margin-top: -224px;
+	padding-bottom: 80px;
+}
+.event-title h3{
+	color:#0f355c;
+}
+.event-border {
+	/* border-top: 1px solid green; */
+	height: 3px;
+	width: 55px;
+	background: #6fed8d;
+	text-align: center;
+	border-radius: 10px;
+}
+.event-content {
+	background: #fff;
+	border-radius: 10px;
+	text-align: left;
+	margin-top: 70px;
+}
+
+.event-text {
+  padding: 30px 0px;
+  /* margin-left: -30px; */
+}
+.event-text h6 {
+  color: #54687d;
+  font-size: 18px;
+}
+.event-text h4 {
+  color: #54687d;
+  font-size: 20px;
+  margin-top: 5px;
+}
+.event-text h4 span{
+  color: #29eb7f;
+  font-size: 20px;
+  margin-top: 5px;
+}
+/* Footer Area */
+
+.footer-top-area {
+  padding: 60px 0px;
+}
+.about-footer-area p {
+  margin-top: 15px;
+  color: #54687d;
+  font-size: 18px;
+}
+.footer-contact-area h5 {
+  color: #54687d;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.footer-contact-area ul li a {
+  text-decoration: none;
+  color: #54687d;
+  font-size: 18px;
+  margin: 4px 10px;
+  display: block;
+}
+.footer-imporantlinks-area h5 {
+  color: #54687d;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.footer-imporantlinks-area ul li a {
+  text-decoration: none;
+  color: #54687d;
+  font-size: 18px;
+  margin: 4px 10px;
+  display: block;
+}
+/* footer-bottom-area */
+.footer-bottom-area{
+	padding:15px 0px;
+}
